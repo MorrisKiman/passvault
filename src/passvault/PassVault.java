@@ -54,6 +54,7 @@ public class PassVault {
             frame.setLocationRelativeTo(null);
 
             // Show the window
+            frame.setResizable(false);
             frame.setVisible(true);
         });
     }
